@@ -96,9 +96,8 @@ nav a:first-child{
     width:96%;
     text-align:center; 
 }
-span{
+h2{
     font-size:48px;
     font-style:italic;
     font-weight:bold;
-    display: block;
 }
