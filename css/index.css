@@ -65,6 +65,7 @@ nav a:first-child{
 }
 #tours img{
     float:left;
+     width:300px;
      margin:0 3%;
 }
 #tours table{
