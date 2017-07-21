@@ -1,0 +1,93 @@
+body {
+    margin:0;
+    padding:0;
+}
+h1{
+    width:50%;
+    font-size:48px;
+    font-style:italic;
+    font-weight:bold;
+    color:#553d0d;
+}
+nav{
+    position:absolute;
+    top:0;
+    right:0;
+    width:50%;
+    float:right;
+   
+}
+nav a {
+    border:1px dashed;
+    float:left;
+    padding:15px 40px;
+    
+     background-color: #fefac0;
+   
+}
+nav a:first-child{
+    border-bottom-left-radius:20px;
+}
+#banner{
+    font-size:21px;
+    color:white;
+    position:relative;
+    background-image: url("../img/balloon.jpg");
+    background-repeat:no-repeat;
+    background-size: cover ;
+    height:100vh;
+    width:100%;
+}
+
+#left_text_banner{
+    background-color:black;
+    opacity:0.76;
+    width:30%;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+#right_text_banner{
+    background-color:black;
+    opacity:0.76;
+    width:30%;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+#banner p{
+    opacity:1;
+}
+#tours{
+    margin:2% 3%;
+    width:96%;
+    text-align:center;
+}
+#tours img{
+    float:left;
+     margin:0 3%;
+}
+#link{
+    margin:2% 3%;
+    width:96%;
+    text-align:center;
+}
+#link #wiki{
+    float:left;
+    padding:2% 10%;
+}
+#map{
+    margin:2% 3%;
+    width:96%;
+    text-align:center;  
+}
+#map canvas{
+    background-color:grey;
+    width:90%;
+    height:300px;
+}
+#feedback{
+   margin:2% 3%;
+    width:96%;
+    text-align:center; 
+}
