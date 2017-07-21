@@ -67,6 +67,11 @@ nav a:first-child{
     float:left;
      margin:0 3%;
 }
+#tours table{
+    border:1px solid;
+    width:60%;
+    height:250px;
+}
 #link{
     margin:2% 3%;
     width:96%;
@@ -90,4 +95,10 @@ nav a:first-child{
    margin:2% 3%;
     width:96%;
     text-align:center; 
+}
+span{
+    font-size:48px;
+    font-style:italic;
+    font-weight:bold;
+    display: block;
 }
