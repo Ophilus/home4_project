@@ -1,5 +1,5 @@
 body {
-    margin:0;
+    margin:0 auto;
     padding:0;
 }
 h1{
@@ -8,6 +8,9 @@ h1{
     font-style:italic;
     font-weight:bold;
     color:#553d0d;
+}
+header img{
+    width:83px; 
 }
 nav{
     position:absolute;
@@ -21,8 +24,7 @@ nav a {
     border:1px dashed;
     float:left;
     padding:15px 40px;
-    
-     background-color: #fefac0;
+    background-color: #fefac0;
    
 }
 nav a:first-child{
@@ -58,11 +60,6 @@ nav a:first-child{
 #banner p{
     opacity:1;
 }
-#tours{
-    margin:2% 3%;
-    width:96%;
-    text-align:center;
-}
 #tours img{
     float:left;
      width:300px;
@@ -70,35 +67,24 @@ nav a:first-child{
 }
 #tours table{
     border:1px solid;
-    width:60%;
-    height:250px;
 }
-#link{
-    margin:2% 3%;
-    width:96%;
-    text-align:center;
+#tours table td{
+   padding: 20px 150px; 
+   
 }
-#link #wiki{
-    float:left;
-    padding:2% 10%;
-}
-#map{
-    margin:2% 3%;
-    width:96%;
-    text-align:center;  
-}
-#map canvas{
-    background-color:grey;
-    width:90%;
-    height:300px;
-}
-#feedback{
-   margin:2% 3%;
-    width:96%;
-    text-align:center; 
+#link div{
+    display:flex;  
+    justify-content:space-around;
+    align-items:center;
 }
 h2{
     font-size:48px;
     font-style:italic;
     font-weight:bold;
+}
+section{
+    margin:2% 3%;
+    width:96%;
+    text-align:center; 
+    clear:left;
 }
