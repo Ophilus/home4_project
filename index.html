@@ -1,84 +1,116 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Traveling in our life</title>
+    <title>Travel to the USA</title>
     <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
 </head>
+
 <body>
-    <header>
-        <h1><img src="img/logo.png" alt="logo">Traveling in our life</h1>
-        <nav>
-            <a href="index.html">Home page</a>
-            <a href="#tours">Tours</a>
-            <a href="#link">Link</a>
-            <a href="#map">Map</a>
-            <a href="#feedback">Feedback</a>
-        </nav>
-    </header>
-    <div>
-        <div id="banner">
-            <div id="left_text_banner" > <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
-            Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit,
-            et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. </p> </div>
-            <div id="right_text_banner"><p>Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis.
-            Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. 
-            Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit
-            sed diam.</p></div>
+    <div id="banner">
+        <div id="header-nav">
+
+            <a href="index.html">HOME</a>
+            <a href="#tours">PROGRAM</a>
+            <a href="#link">OUR TEAM</a>
+            <a href="#link">REVIEW</a>
+
         </div>
-        <section id="tours">
-            <h2>Tours</h2>
-            <img src="img/spg.gif" alt="passport">
-            <table>
-                <tr>
-                    <th>Tours</th>
-                    <th>Price</th>
-                </tr>
-                 <tr>
-                    <td>Rest in **</td>
-                    <td>XX $</td>
-                    
-                </tr>
-                 <tr>
-                    <td>Rest in **</td>
-                    <td>XX $</td>
-                </tr>
-                <tr>
-                    <td>Rest in **</td>
-                    <td>XX $</td>
-                </tr>
-                <tr>
-                    <td>Rest in **</td>
-                    <td>XX $</td>
-                </tr>
-            </table>
-        </section>
-        <section id="link">
-            <h2>Link</h2>
-            <div>
-            <div id="wiki">
-                <a href="#"><img src="img/wikipedia.png" alt="wiki-logo"><br>Wikipedia</a>
-            </div>
-            <div id="inst">
-                <a href="#"><img src="img/instagram.png" alt="inst-logo"><br>Instagram</a>
-            </div>
-            </div>
-        </section>
-        <section id="map">
-            <h2>Map</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10291.580064568538!2d24.021863767666325!3d49.844430110719934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add721382be17%3A0x75606e33f4474dd6!2z0KLRg9GA0LjRgdGC0LjRh9C90LAg0LDQs9C10L3RhtGW0Y8gItCf0L7Rl9GF0LDQu9C4INC3INC90LDQvNC4Ig!5e0!3m2!1sru!2sua!4v1500869629456" width="600" height="450" style="border:0" allowfullscreen></iframe>
-        </section>
-        <section id="feedback">
-            <h2>Contact me</h2>
-            <form method="POST" action="https://formspree.io/gryn.vadim@gmail.com">
-                <label>Your name:<input type="text" name="name"></label>
-                <label>Your e-mail:<input type="email" name="e-mail"></label><br>
-                <label>Your message:<br><textarea name="message"></textarea></label><br>
-                <input type="submit" value="Submit"/>
-            </form>
-        </section>
+        <div id="banner-text">
+            <span>Travel to the</span>
+            <h1> USA</h1>
+
+        </div>
+        <div><button>START BOOKING</button></div>
     </div>
-    <footer>&copy; Copyright</footer>
+    <section id="program">
+        <span>What should you be prepared for?</span>
+        <h2>PROGRAM</h2>
+        <div id='borderDiv'><div id="slider">
+					<a id="bt_prev" href="" class="button"></a>
+					<ul >
+						<li ><img id="first-container" src="img/NY_EmpireStateBuilding.jpg" alt='EmpireStateBuilding'></li>
+						<li ><img id="second-container" src="img/NY_StatueOfLiberty.jpg" alt='StatueOfLiberty'></li>
+						<li><img id="third-container" src="img/NY_FlatironBuilding.jpg" alt='FlatironBuilding'></li>
+						<li><img id="fourth-container" src="img/NY_Manh.Bridge.jpg" alt='ManhetenBridge.jpg'></li>							
+					</ul>
+					<a id="bt_next" href="" class="button"></a>			
+				</div>
+				<span id="title-city">New York</span>
+		</div>
+    </section>
+    <section id="ourTeam">
+        <span>Who will bring you to all places?</span>
+        <h2>OUR TEAM</h2>
+        <img src="img/Our_team.png" alt='ourTeam'></img><br>
+        <div><span>Maryana Dudkina</span><span>Ken Fish</span><span>Lauren Wright</span></div>
+    </section>
+     <section id="review">
+        <span>What did others thought about it?</span>
+        <h2>REVIEW</h2>
+        <div>
+            <div>
+               <h2></h2> 
+               <span></span>
+               <div><img src=""></img><span id='name'></span></div>
+            </div>
+            
+        </div>
+    </section>
+
+    <div id='additionalInformation'>
+        <div>
+        <h3>add</h3>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        </div>
+        <div>
+        <h3>add</h3>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        </div>
+        <div>
+        <h3>add</h3>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        </div>
+    </div>
+    <footer>
+         Copyright &copy; 2017 Travel to the USA, All Rights Reserved
+         <span id="footer-nav">
+
+            <a href="index.html">HOME</a>
+            <a href="#tours">PROGRAM</a>
+            <a href="#link">OUR TEAM</a>
+            <a href="#link">REVIEW</a>
+
+        </span>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+      <script src="js/jquery-sample.js"></script>
 </body>
+
 </html>
