@@ -6,15 +6,17 @@ $(function() {
    if(mark<=0){
        mark=4;
    }
-    slider(mark);   
+   
+     slider(mark);
    });
    $("#bt_next").click(function(e) {
     e.preventDefault();
    mark++;
    if(mark>=5){
        mark=1;
-   }
-    slider(mark);    
+   }   
+   
+     slider(mark);
    });
     
 function slider(mark){
@@ -25,7 +27,7 @@ function slider(mark){
             $('#fourth-container').attr("src","img/NY_Manh.Bridge.jpg");
             $('#title-city').html('New York');
     }else if(mark==2){
-            $('#second-container').attr("src","img/5.jpg");
+            $('#first-container').attr("src","img/5.jpg");
             $('#second-container').attr("src","img/6.jpg");
             $('#third-container').attr("src","img/7.jpg");
             $('#fourth-container').attr("src","img/8.jpg"); 
@@ -48,5 +50,28 @@ function slider(mark){
     
    
 
+
+});
+
+
+
+
+$( document ).ready(function() {
+
+$( ".cross" ).hide();
+$( ".menu" ).hide();
+$( ".hamburger" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".hamburger" ).hide();
+$( ".cross" ).show();
+});
+});
+
+$( ".cross" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".cross" ).hide();
+$( ".hamburger" ).show();
+});
+});
 
 });

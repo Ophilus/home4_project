@@ -3,21 +3,35 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="iphone 5" content="width=568, initial-scale=1">
     <title>Travel to the USA</title>
     <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
 </head>
 
 <body>
+     <div id="burgermenu">
+        <center><button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button></center></div>
     <div id="banner">
+        
         <div id="header-nav">
 
             <a href="index.html">HOME</a>
-            <a href="#tours">PROGRAM</a>
-            <a href="#link">OUR TEAM</a>
-            <a href="#link">REVIEW</a>
+            <a href="#program">PROGRAM</a>
+            <a href="#ourteam">OUR TEAM</a>
+            <a href="#review">REVIEW</a>
 
         </div>
+       
+  <div class="menu">
+  <ul>
+    <a href="index.html"><li>HOME</li></a>
+    <a href="#program"><li>PROGRAM</li></a>
+    <a href="#ourteam"><li>OUR TEAM</li></a>
+    <a href="#review"><li>REVIEW</li></a>
+  </ul>
+  </div>
         <div id="banner-text">
             <span>Travel to the</span>
             <h1> USA</h1>
@@ -28,7 +42,7 @@
     <section id="program">
         <span>What should you be prepared for?</span>
         <h2>PROGRAM</h2>
-        <div id='borderDiv'><div id="slider">
+        <div class="bgimg" id="borderDiv"><div id="slider">
 					<a id="bt_prev" href="" class="button"></a>
 					<ul >
 						<li ><img id="first-container" src="img/NY_EmpireStateBuilding.jpg" alt='EmpireStateBuilding'></li>
@@ -41,11 +55,13 @@
 				<span id="title-city">New York</span>
 		</div>
     </section>
-    <section id="ourTeam">
+    <section id="ourteam">
         <span>Who will bring you to all places?</span>
         <h2>OUR TEAM</h2>
-        <img src="img/Our_team.png" alt='ourTeam'></img><br>
+        <div class="bgimg">
+        <img src="img/our_team.png" alt='ourTeam'></img><br>
         <div><span>Maryana Dudkina</span><span>Ken Fish</span><span>Lauren Wright</span></div>
+    </div>
     </section>
      <section id="review">
         <span>What did others thought about it?</span>
@@ -54,13 +70,13 @@
             <div>
                <h2></h2> 
                <span></span>
-               <div><img src=""></img><span id='name'></span></div>
+               <div><img src=""></img><span id="name"></span></div>
             </div>
             
         </div>
     </section>
 
-    <div id='additionalInformation'>
+    <div id="additionalInformation">
         <div>
         <h3>add</h3>
         <ul>

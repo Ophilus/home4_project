@@ -28,6 +28,7 @@ a:hover {
     background-image: url("../img/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 #banner #header-nav {
@@ -54,7 +55,7 @@ a:hover {
 span {
     color: grey;
     font-style: italic;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 h2 {
@@ -79,31 +80,41 @@ h2 {
 }
 
 section {
+    margin-top: 20px;
     width: 100%;
     text-align: center;
 }
 
-#program {
+#program .bgimg{
     background-image: url('../img/flag.jpg');
     background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
-#ourTeam {
+#ourteam .bgimg{
     background-image: url('../img/our_team_bg.jpg');
     background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 70% 100%;
+    background-size: 70% 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
+#ourteam img{
+   width: 50%;
+}
 
-#ourTeam div {
-    width: 70%;
+#ourteam div {
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-#ourTeam div span {
+#ourteam div span {
     font-size: 1.5em;
 }
 
@@ -111,6 +122,8 @@ section {
     padding:192px 0;
     background-image: url('../img/review.png');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -137,6 +150,7 @@ footer span {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    background-position: center;
     width: 100%;
     padding:40px 0;
     display:flex;
@@ -199,4 +213,54 @@ footer span {
     font-size: 2em;
     font-style: italic;
     color: black;
+}
+/*Burger menu*/
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  left:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0;
+  left:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:4.5em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:1.5em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:30px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+#burgermenu{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    #banner #header-nav{display: none}
+    #burgermenu{display: block}
+}
+@media screen and (max-device-width: 600px) {
+    #banner #header-nav{display: none}
+    #burgermenu{display: block}
 }
